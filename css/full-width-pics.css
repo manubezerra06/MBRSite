@@ -1,0 +1,192 @@
+/*!
+ * Start Bootstrap - Full Width Pics HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #749FA0;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: #7C5F4D;
+}
+
+.navbar-inverse {
+  background-color: #534034;
+  border-color: #749FA0;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #749FA0;
+  font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #ECD3C3;
+}
+
+.navbar-brand>img {
+  display: inline-block;
+  height: 23px;
+}
+
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image-bg-fluid-height {
+	background: url('../land.png') no-repeat center center scroll;
+  padding: 100px 0;
+}
+
+.image-bg-fixed-height {
+	background: url('../foot.png') no-repeat center center scroll;
+  height: 450px;
+  margin-bottom: 0px;
+}
+
+.img-center {
+	margin: 0 auto;
+}
+
+section {
+    padding: 75px 0;
+}
+
+.section-heading {
+    margin: 30px 0;
+    font-size: 4em;
+}
+
+.section-lead {
+    margin: 30px 0;
+}
+
+.section-paragraph {
+    margin: 30px 0;
+}
+
+footer {
+    margin: 50px 0;
+    padding-top: 20px; 
+}
+
+@media(max-width:768px) {
+    section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .section-heading {
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+      float: right;
+      margin: 0;
+    }
+}
+
+
+//PRIMEIRA SEÇÃO
+
+.all .imagem  {
+  float: right;
+}
+
+.all .imagem img {
+  max-height: 450px;
+}
+
+.all .conteudo {
+  float: left;
+  max-width: 75%;
+  margin-right: 15px;
+}
+
+.centro{
+  text-align: center;
+}
+
+//LINKS
+
+
+.row .foot{
+  padding-top: 20px; 
+}
+
+.links li>a{
+  color: #749FA0;
+  text-shadow: 0.5px 0.5px #7C5F4D;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+ul.links {
+  list-style: none;
+  text-align: left;
+}
+
+.btn-social {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 45px;
+}
+
+.btn-outline {
+  margin-top: 15px;
+  border: solid 2px #749FA0;
+  font-size: 20px;
+  color: #534034;
+  background: 0 0;
+  transition: all .3s ease-in-out;
+}
+
+a.btn-social.btn-outline:hover {
+  color: #749FA0;
+}
+
+a.btn.btn-lg {
+  color: #7C5F4D;
+}
+
+a.btn.btn-lg:hover{
+  color: #749FA0;
+}
+
+.links li>a:hover {
+  text-shadow: 1px 1px 2.5px #749FA0;
+  color: #7C5F4D;
+}
+
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
