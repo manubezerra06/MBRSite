@@ -36,6 +36,15 @@
 
 <body>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&appId=1428027397490865&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -53,13 +62,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">O projeto</a>
+                        <a href="#projeto" class="smoothScroll">O projeto</a>
                     </li>
                     <li>
-                        <a href="#">Manifesto</a>
+                        <a href="#manifesto" class="smoothScroll">Manifesto</a>
                     </li>
                     <li>
-                        <a href="#">Contate-nos</a>
+                        <a href="#contato" class="smoothScroll">Contate-nos</a>
                     </li>
                 </ul>
             </div>
@@ -78,18 +87,23 @@
     </header>
 
     <!-- Content Section -->
-    <section>
+    <section id="projeto">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="all">
                         <div class="conteudo">
                             <h1 class="section-heading">O projeto</h1>
-                            <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+                            <p class="lead section-paragraph">Meu bicho de rua é um aplicativo gratuito que auxilia na localização e catálogo de animais de rua.
+                            Através do aplicativo será possível ao usuário cadastrar de maneira fácil qualquer animal de rua acrescentando a este cadastro a situação em que o animal se encontra.</p>
+                            <p class="lead section-paragraph">Este app tem como intuito principal ajudar à quem ajuda, ou seja, ONG’s, protetores voluntários ou apenas pessoas de bom coração.</p>
+                            <p class="lead section-paragraph">Como atuantes na causa entendemos que nem toda a pessoa tem condições ou espaço suficientes para manter um animal, mas que mesmo assim gostariam de colaborar de alguma forma, sendo assim, este app também possibilita a interação entre as pessoas que cadastram estes animais e as que desejam colaborar com rações, medicamentos e mantimentos em geral.</p>
+                            <p class="lead section-paragraph">Além disto o app também mantém os usuários informados sobre pets, veterinários, agropecuárias e distribuidoras de ração que oferecem produtos e serviços com valores diferenciados.</p>
+                            <img src="assets/images/app_store_min.png"></img>
+                            <!-- <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p> -->
                         </div>
                         <div class="imagem">
-                            <img src="assets/images/snaps.gif"></img>
+                            <img class="snaps" src="assets/images/snaps.gif"></img>
                         </div>
                     </div>
                 </div>
@@ -99,19 +113,53 @@
 
 
     <!-- Content Section -->
-    <!-- <section>
+    <section id="manifesto">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="section-heading">Section Heading</h1>
-                    <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+                    <h1 class="section-heading">Manifesto</h1>
+                    <p class="lead section-lead">Todas as fotos e dados divulgados no aplicativo são dinâmicos e cadastrados por usuários e mantidos pelos desenvolvedores. Qualquer conteúdo que não seja verossímil, deve nos ser denunciado. Meu Bicho de Rua é um aplicativo gratuito e feito por uma equipe de pesquisa e desenvolvimento de apps.</p>
                 </div>
-            </div> -->
+            </div>
             <!-- /.row -->
-        <!-- </div> -->
+        </div>
         <!-- /.container -->
-    <!-- </section> -->
+    </section>
+
+    <!-- Content Section -->
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="all">
+                        <div class="conteudo">
+                            <h1 class="section-heading">A equipe!</h1>
+                            <p class="lead section-lead">Conheça quem está por trás do desenvolvimento, entre em contato. Gostaríamos muito se você desse sua opinião! ;D</p>
+                            <div class="fb-page" data-href="https://www.facebook.com/mbrapp" data-hide-cover="true" data-show-facepile="true" data-show-posts="false"></div>
+                            <!-- <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p> -->
+                        </div>
+                        <div class="imagem">
+                            <div class="imagem_um">
+                                <img src="assets/images/ju.png"></img>
+                                <p class="p_fotos">Julia Lemos</p>
+                                <p><a href="https://www.linkedin.com/profile/view?id=330816626" class="btn-social btn-outline btn-fotos"><i class="fa fa-fw fa-linkedin"></i></a></p>
+                            </div>
+                            <div class="imagem_um empurra">
+                                <img src="assets/images/manu.png"></img>
+                                <p class="p_fotos">Manu Bezerra</p>
+                                <p><a href="br.linkedin.com/pub/manuela-bezerra/56/68a/b04/pt" class="btn-social btn-outline btn-fotos"><i class="fa fa-fw fa-linkedin"></i></a></p>
+                            </div>
+                            <div class="imagem_um empurra">
+                                <img src="assets/images/kren.png"></img>
+                                <p class="p_fotos">Karen Garcia</p>
+                                <p><a href="br.linkedin.com/pub/karen-g-santos/8a/359/903/pt" class="btn-social btn-outline btn-fotos"><i class="fa fa-fw fa-linkedin"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- <link rel="import" href="footer.html"> -->
 <!-- Footer -->
@@ -123,24 +171,24 @@
         <div class="row foot">
             <div class="col-lg-4 col-lg-offset-2">
                 <ul class="links">
-                    <li><a href="#">O Projeto</a></li>
-                    <li><a href="#">Manifesto</a></li>
-                    <li><a href="#">Contate-nos</a></li>
+                    <li><a href="#projeto" class="smoothScroll">O Projeto</a></li>
+                    <li><a href="#manifesto" class="smoothScroll">Manifesto</a></li>
+                    <li><a href="#contato" class="smoothScroll">Contate-nos</a></li>
                 </ul>
             </div>
             <div class="col-lg-4">
                 <ul class="list-inline">
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                <a href="https://www.facebook.com/mbrapp" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
-                            </li>
+                            </li> -->
                             <li>
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-apple"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                                <a href="https://github.com/karenkgs/MBRSite" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
                             </li>
                         </ul>
             </div>
@@ -165,8 +213,11 @@
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
+
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
 
 </body>
 

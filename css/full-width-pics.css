@@ -102,7 +102,7 @@ footer {
 
 //PRIMEIRA SEÇÃO
 
-.all .imagem  {
+#projeto .all .imagem {
   float: right;
 }
 
@@ -111,9 +111,23 @@ footer {
 }
 
 .all .conteudo {
-  float: left;
   max-width: 75%;
   margin-right: 15px;
+}
+
+#projeto .all .conteudo{
+  float: left;
+}
+
+#contato .all .imagem{
+  float: left;
+  display: flex;
+}
+
+#contato .all .conteudo{
+  max-width: 50%;
+  float:right;
+  margin-right: 0px;
 }
 
 .centro{
@@ -187,6 +201,38 @@ a.btn.btn-lg:hover{
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#manifesto{
+  background-color: #EADBD2;
+}
+
+.empurra {
+  margin-left: 30px;
+}
+
+.imagem_um{
+  text-align: center;
+}
+
+p.p_fotos {
+  margin-bottom: 0;
+  margin-top: 20px;
+  color: #749FA0;
+}
+
+a.btn-social.btn-outline.btn-fotos {
+  border: solid 2px #ECD3C3;
+  color: #534034;
+}
+
+a.btn-social.btn-outline.btn-fotos:hover {
+  color: #749FA0;
+}
+
+img.snaps {
+  margin-top: 214px;
+  margin-left: 40px;
 }
 
 
